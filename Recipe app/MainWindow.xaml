@@ -1,0 +1,35 @@
+﻿<Window x:Class="Recipe_app.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Recipe_app"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="#FF94BDCE" Margin="0,0,-16,0">
+        <Label Content="" Margin="149,-10,0,392" FontSize="36" HorizontalAlignment="Left" FontWeight="Bold" Visibility="Visible" Foreground="#FFEDE2E2" FontStyle="Italic" FontStretch="Medium"/>
+        <TextBox x:Name="RecipeTextBox" Text="{Binding RecipeText}" HorizontalAlignment="Left" Margin="327,77,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429" FontSize="14" Height="39" TextAlignment="Left" FontFamily="Yu Gothic" Background="#FFF6F9F9" SelectionTextBrush="#FFF0E7E7"  />
+        <TextBox x:Name="IngredientTextBox" Text="{Binding IngredientText}"  HorizontalAlignment="Left" Margin="23,76,0,0" TextWrapping="WrapWithOverflow" VerticalAlignment="Top" Width="240" Height="40" FontSize="14" FontFamily="Yu Gothic" IsReadOnlyCaretVisible="True" Visibility="Visible" >
+
+        </TextBox>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="What the f$#@ will I eat?" VerticalAlignment="Top" Height="57" Width="554" FontFamily="Yu Gothic" TextAlignment="Center" FontSize="30" Margin="118,2,0,0"/>
+        <Button x:Name="RandomRecipeButton" Content="Random Recipe" HorizontalAlignment="Left" Margin="730,146,0,0" VerticalAlignment="Top" Width="68" Height="23" FontFamily="Yu Gothic" FontSize="8" Cursor="Hand" Command="{Binding ButtonCommand}" />
+
+        <TextBox HorizontalAlignment="Left" Margin="28,66,0,0" TextWrapping="Wrap" Text="Search for Ingredient" VerticalAlignment="Top" Width="277" Height="40" FontSize="14" FontFamily="Yu Gothic" Background="#FFF6F9F9" Visibility="Hidden"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,129,0,0" TextWrapping="Wrap" Text="Filters" VerticalAlignment="Top" FontFamily="Yu Gothic" FontSize="14" Background="#FFB8B1B1" Width="142" Height="30" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,286,0,0" TextWrapping="Wrap" Text="Meal Type" VerticalAlignment="Top" FontFamily="Yu Gothic" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,232,0,0" TextWrapping="Wrap" Text="Cooking Time" VerticalAlignment="Top" FontFamily="Yu Gothic" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="23,176,0,0" TextWrapping="Wrap" Text="Cuisine" VerticalAlignment="Top" FontFamily="Yu Gothic" FontSize="14"/>
+        <TextBlock HorizontalAlignment="Left" Margin="25,340,0,0" TextWrapping="Wrap" Text="Diet Type" VerticalAlignment="Top" FontFamily="Yu Gothic" FontSize="14"/>
+        <ComboBox x:Name="CuisineOptions" SelectedItem="{Binding Selected}" HorizontalAlignment="Left" Margin="23,203,0,0" VerticalAlignment="Top" Width="144" AlternationCount="-5" AllowDrop="True" Cursor="" ItemsSource="{Binding cuisine}" ></ComboBox>
+        <ComboBox x:Name="CookingTimeOptions" SelectedItem="{Binding Selected}" HorizontalAlignment="Left" Margin="23,259,0,0" VerticalAlignment="Top" Width="144" ItemsSource="{Binding Path=cookingTime}"  AllowDrop="True"/>
+        <ComboBox x:Name="MealTypeOptions" SelectedItem="{Binding Selected}" HorizontalAlignment="Left" Margin="23,313,0,0" VerticalAlignment="Top" Width="144" ItemsSource="{Binding mealType}"  AllowDrop="True"/>
+        <ComboBox x:Name="DietTypeOptions" SelectedItem="{Binding Selected}" HorizontalAlignment="Left" Margin="23,367,0,0" VerticalAlignment="Top" Width="144" ItemsSource="{Binding dietType}"  AllowDrop="True"/>
+        <TextBox x:Name="MainTextBox" HorizontalAlignment="Left" Margin="301,174,0,0" TextWrapping="Wrap" Text="{Binding DisplayText}" TextAlignment="Center" VerticalAlignment="Top" Height="247" Width="497" Background="#FFFFFFFF"  FontSize="16" SelectionBrush="Transparent" Cursor="Arrow" IsReadOnly="True" 
+          VerticalScrollBarVisibility="Auto"/>
+        <TextBlock HorizontalAlignment="Left" Margin="21,49,0,0" TextWrapping="Wrap" Text="Search for Ingredient" VerticalAlignment="Top" FontFamily="Yu Gothic" FontSize="14" Background="#FFB8B1B1" Width="202" Height="22" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="327,50,0,0" TextWrapping="Wrap" Text="Search for Recipe" VerticalAlignment="Top" FontFamily="Yu Gothic" FontSize="14" Background="#FFB8B1B1" Width="202" Height="22" TextAlignment="Center"/>
+        <Button Content="Search" Command="{Binding IngredientandRecipeSearchCommand}" FontSize="10" HorizontalAlignment="Left" Margin="268,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.374,0.743" Height="19" Width="37"/>
+        <Button Content="Search"  Command="{Binding IngredientandRecipeSearchCommand}" FontSize="10" HorizontalAlignment="Left" Margin="761,87,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.374,0.743" Height="19" Width="37"/>
+    </Grid>
+</Window>

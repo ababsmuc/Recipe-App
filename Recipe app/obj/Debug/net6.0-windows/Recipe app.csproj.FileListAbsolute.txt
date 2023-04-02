@@ -1,0 +1,42 @@
+C:\Users\HP\source\repos\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.exe
+C:\Users\HP\source\repos\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.deps.json
+C:\Users\HP\source\repos\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.runtimeconfig.json
+C:\Users\HP\source\repos\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.dll
+C:\Users\HP\source\repos\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.pdb
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.csproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app_MarkupCompile.cache
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app_MarkupCompile.lref
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.g.resources
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.AssemblyInfo.cs
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.dll
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\refint\Recipe app.dll
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.pdb
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.genruntimeconfig.cache
+C:\Users\HP\source\repos\Recipe app\Recipe app\obj\Debug\net6.0-windows\ref\Recipe app.dll
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.exe
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.deps.json
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.runtimeconfig.json
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.dll
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\bin\Debug\net6.0-windows\Recipe app.pdb
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.csproj.AssemblyReference.cache
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app_MarkupCompile.cache
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app_MarkupCompile.lref
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.g.resources
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.dll
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\refint\Recipe app.dll
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.pdb
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\Recipe app.genruntimeconfig.cache
+C:\Users\HP\RiderProjects\Recipe app\Recipe app\obj\Debug\net6.0-windows\ref\Recipe app.dll
