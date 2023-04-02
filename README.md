@@ -1,3 +1,3 @@
 # Recipe-App
 
-This is a recipe app that gives recipes based on keywords, cuisine, etc..
+This is a recipe app that generates recipes based on keywords, cuisine, etc..
